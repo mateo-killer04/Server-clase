@@ -56,7 +56,7 @@ commands:
   - tellraw
 messages:
   whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
+  unknown-command: What is this command?? Type "/help" for help, you need it...
   server-full: The server is full!
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
@@ -97,16 +97,16 @@ world-settings:
       sapling-modifier: 100
       wheat-modifier: 100
       netherwart-modifier: 100
-    mob-spawn-range: 4
+    mob-spawn-range: 6
     entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-    entity-tracking-range:
-      players: 48
       animals: 48
       monsters: 48
       misc: 32
+    entity-tracking-range:
+      players: 64
+      animals: 64
+      monsters: 64
+      misc: 48
       other: 64
     ticks-per:
       hopper-transfer: 8
@@ -120,10 +120,10 @@ world-settings:
     seed-village: 10387312
     seed-feature: 14357617
     hunger:
-      walk-exhaustion: 0.2
-      sprint-exhaustion: 0.8
-      combat-exhaustion: 0.3
-      regen-exhaustion: 3.0
+      walk-exhaustion: 0.4
+      sprint-exhaustion: 0.9
+      combat-exhaustion: 0.7
+      regen-exhaustion: 4.0
     max-tnt-per-tick: 100
     max-tick-time:
       tile: 50

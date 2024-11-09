@@ -12,7 +12,7 @@ login:
   # Only allow registered players to join using exactly the same name as registered.
   username-match-exact: true
 password:
-  min-length: 6
+  min-length: 1
 password-max-length: 32
 join:
   # When enabled, player gets a blindness effect when not logged in.
@@ -31,7 +31,7 @@ username:
   max-length: 16
 # Shortcut that can be used as alternative to login/register command. Does not replace the defaults
 command-shortcut:
-  enabled: false
+  enabled: true
   login: /l
   register: /reg
 updater:
@@ -41,7 +41,7 @@ updater:
 # Session timeout in seconds, set to -1 to disable.
 session-timeout: 0
 # Login timeout in seconds, set to -1 to disable.
-login-timeout: 30
+login-timeout: 60
 # Login/register message delay in seconds.
 login-message-delay: 10
 # Language for messages, check wiki for more info.
