@@ -6,15 +6,15 @@ Original Project: Lax1Dude
 Original Server Fork: EcoliEater87
 <br>
 ## Setup Guide
-Welcome to the EaglercraftX server project! Here is how you can setup your very own eaglercraft server:
+Welcome to the EaglercraftX server project! Matthew
 <br>
 <br>
-First, go to the top of the repo and click on code > codespaces > create codespace
+ILLOOOOOOO QUE DICEEEEEE
 <br>
-now you have your own free server instance to host eaglercraft. Next you need to run the setup commands:
+VIVA FRANCO
 <br>
 <br>
-create 2 terminal tabs and paste in the following snipits:
+create 2 terminal tabs and paste
 <br>
 <br>
 first tab: `cd server && sudo java -jar server.jar`
@@ -23,6 +23,6 @@ first tab: `cd server && sudo java -jar server.jar`
 second tab: `cd bungee && sudo java -jar bungee.jar`
 <br>
 <br>
-Now go to the ports area and forward (and make public) ports `25565` and `8081`
+go to the port area -> ports `25565` and `8081`
 <br>
-Your eaglercraft server is setup!
+!
