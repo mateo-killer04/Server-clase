@@ -6,15 +6,12 @@ Original Project: Lax1Dude
 Original Server Fork: EcoliEater87
 <br>
 ## Setup Guide
-Welcome to the EaglercraftX server project! Matthew
 <br>
 <br>
-ILLOOOOOOO QUE DICEEEEEE
-<br>
-VIVA FRANCO
 <br>
 <br>
-create 2 terminal tabs and paste
+<br>
+2 terminal tabs:
 <br>
 <br>
 first tab: `cd server && sudo java -jar server.jar`
@@ -23,6 +20,6 @@ first tab: `cd server && sudo java -jar server.jar`
 second tab: `cd bungee && sudo java -jar bungee.jar`
 <br>
 <br>
-go to the port area -> ports `25565` and `8081`
+go to the port area -> ports `25565` and `8081`, o los del server de aternos, se ve en bungee, config.yml
 <br>
-!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

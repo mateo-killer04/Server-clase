@@ -45,6 +45,6 @@ disabled_commands:
 - disabledcommandhere
 servers:
   lobby:
-    motd: '&1Just another Waterfall - Forced Host'
-    address: localhost:25565
+    motd: Mundocole.aternos.me:58933
+    address: localhost:58933
     restricted: false
