@@ -5,14 +5,7 @@ Original Project: Lax1Dude
 <br>
 Original Server Fork: EcoliEater87
 <br>
-## Setup Guide
-Welcome to the EaglercraftX server project! Matthew
-<br>
-<br>
-ILLOOOOOOO QUE DICEEEEEE
-<br>
-VIVA FRANCO
-<br>
+## Setup Guide - lamentablemente, no he conseguido hacerlo funcionar con forge :c
 <br>
 create 2 terminal tabs and paste
 <br>
