@@ -1,0 +1,76 @@
+# This is the configfile for MonsterMadness.
+# Here you can change all the settings to make this modification harder or easier.
+
+# Do you want in-game messages about this plugin
+# 1 for true
+# 0 for false
+
+enableMessage: 1
+
+# ZombiePercent is how much chance there is for a zombie to respawn.
+# When you type in a zero, there is a 100 percent chance that the zombie will respawn.
+# Math:100 - what you enter = the chance that a zombie will respawn.
+# ZombieMultiply is how many zombies will be respawned.
+
+zombiePercent: 50
+zombieMultiply: 1
+
+# SkeletonPercent is how much chance there is for a skeleton to respawn.
+# When you type in a zero, there is a 100 percent chance that the skeleton will respawn.
+# Math:100 - what you enter = the chance that a skeleton will respawn.
+# SkeletonMultiply is how many skeletons will be respawned.
+
+skeletonPercent: 80
+skeletonMultiply: 2
+
+# CreeperMin is the minimum value of the creeper explosion radius.
+# CreeperMax is the maximum value of the creeper explosion radius.
+# CreeperPoweredMin is the minimum value of the creeperPowered explosion radius.
+# CreeperPoweredMax is the maximum value of the creeperPowered explosion radius.
+# I think the default radius is around 3.
+
+creeperMin: 0
+creeperMax: 5
+creeperPoweredMin: 3
+creeperPoweredMax: 8
+
+# endermanPercent is how much chance there is for an enderman to buff nearby enemies.
+# When you type in a zero, there is a 100 percent chance that the enderman will buff nearby enemies.
+# Math:100 - what you enter = the chance that the enderman will buff nearby enemies.
+# endermanRadiusX,Y,Z is the radius in blocks the buff will be active.
+
+endermanPercent: 0
+endermanRadiusX: 10
+endermanRadiusY: 10
+endermanRadiusZ: 10
+
+# ZombieDefenceDuration is the length of the defence buff that the zombie will get.
+# ZombieDefenceDuration is the strength of the defence buff that the zombie will get.
+
+zombieDefenceDuration: 125 # this is 5 seconds
+zombieDefenceStrength: 1 # this is strength 1
+
+# SkeletonInvisibilityDuration is the length of the invisibility that the skeleton will get.
+
+skeletonInvisibilityDuration: 125 # this is 5 seconds
+
+# spiderSpeedDuration is the length of the speed buff that the spider will get.
+# spiderSpeedStrength is the strength of the speed buff that the spider will get.
+
+spiderSpeedDuration: 125 # this is 5 seconds
+spiderSpeedStrength: 1 # this is strength 1
+
+# SpiderPercent is how much chance there is for the spider to poison you.
+# When you type in a zero, there is a 100 percent chance that the spider will poison you.
+# Math:100 - what you enter = the chance that the spider will poison you.
+# SpiderSlowDuration is the length of the poison that the spider can give you.
+# SpiderSlowStrength is the strength of the poison that the spider can give you.
+
+spiderPercent: 50
+spiderSlowDuration: 50 # this is 2 seconds
+spiderSlowStrength: 3 # this is strength 4
+
+# If you break something just delete this config file and it will be recreated.
+#-------------------------------
+# This mod is created by Kasszz.
+# If you have a good idea for this mod, please let me know on the plugin page.
