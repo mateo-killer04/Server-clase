@@ -12,7 +12,7 @@ enableMessage: 1
 # Math:100 - what you enter = the chance that a zombie will respawn.
 # ZombieMultiply is how many zombies will be respawned.
 
-zombiePercent: 50
+zombiePercent: 80
 zombieMultiply: 1
 
 # SkeletonPercent is how much chance there is for a skeleton to respawn.
@@ -20,8 +20,8 @@ zombieMultiply: 1
 # Math:100 - what you enter = the chance that a skeleton will respawn.
 # SkeletonMultiply is how many skeletons will be respawned.
 
-skeletonPercent: 80
-skeletonMultiply: 2
+skeletonPercent: 90
+skeletonMultiply: 1
 
 # CreeperMin is the minimum value of the creeper explosion radius.
 # CreeperMax is the maximum value of the creeper explosion radius.
@@ -29,9 +29,9 @@ skeletonMultiply: 2
 # CreeperPoweredMax is the maximum value of the creeperPowered explosion radius.
 # I think the default radius is around 3.
 
-creeperMin: 0
-creeperMax: 5
-creeperPoweredMin: 3
+creeperMin: 4
+creeperMax: 6
+creeperPoweredMin: 7
 creeperPoweredMax: 8
 
 # endermanPercent is how much chance there is for an enderman to buff nearby enemies.
@@ -66,8 +66,8 @@ spiderSpeedStrength: 1 # this is strength 1
 # SpiderSlowDuration is the length of the poison that the spider can give you.
 # SpiderSlowStrength is the strength of the poison that the spider can give you.
 
-spiderPercent: 50
-spiderSlowDuration: 50 # this is 2 seconds
+spiderPercent: 70
+spiderSlowDuration: 100 # this is 2 seconds
 spiderSlowStrength: 3 # this is strength 4
 
 # If you break something just delete this config file and it will be recreated.
