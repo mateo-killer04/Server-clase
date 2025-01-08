@@ -63,7 +63,7 @@ Natural_Enchanting:
   
   # Determines whether the permission for this feature is enabled
   # Permission: "EnchantPlus.mechanic.multiple"
-  Permission_Enabled: false
+  Permission_Enabled: true
   
   # Determines whether the conflicting check for enchantments is enabled (conflicting enchantment example: "Sharpness" and "Smite" or "Bane of Arthropods)
   # Bypass permission: "EnchantPlus.bypass.conflicting"
@@ -91,7 +91,7 @@ Natural_Enchanting:
    # This is the amount of levels all offered level costs of the enchantment table will be increased by per enchantment
    # (<normal_cost> + <enchantment_amount> * <amount>)
    # For example one option in the enchantment table costs 5 levels, but your item has already 2 enchantments and the amount is set to 5, so the cost will be set to 15
-   Amount: 5
+   Amount: 3
 
 # This section contains settings for the manual enchanting with commands
 Manual_Enchanting:
@@ -130,7 +130,7 @@ Manual_Enchanting:
   
   # This is the default amount of the level restriction for all enchantments
   # Uses the natural level limit of an enchantment if set to 0
-  Amount: 20
+  Amount: 0
   
   # You can override the level restriction amount for particular enchantments with this list
   # Format: <name/id>-<amount>

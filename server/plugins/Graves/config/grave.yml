@@ -10,7 +10,7 @@ settings:
       #########
       grave:
         time: 10800 # (Second) How long graves should stay alive for, 300 = 5 minutes, 10800 = 3 hours, -1 lasts forever.
-        max: 18 # The max amount of graves an entity can have.
+        max: 40 # The max amount of graves an entity can have.
         break: true # Can graves be broken.
         explode: false # Can graves be blown up.
 
@@ -66,7 +66,7 @@ settings:
           y: 0 # Block offset Y.
           z: 0 # Block offset Z.
         head:
-          type: 1 # 0 = Player/Entity head, (1 = Custom texture or 2 = Player username set under name).
+          type: 0 # 0 = Player/Entity head, (1 = Custom texture or 2 = Player username set under name).
           base64: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdjYWI1NmM4MmNiODFiZGI5OTc5YTQ2NGJjOWQzYmEzZTY3MjJiYTEyMmNmNmM1Mjg3MzAxMGEyYjU5YWVmZSJ9fX0="
           name: "MHF_Chest" # If type is set to 2.
 
@@ -93,7 +93,7 @@ settings:
       # Protection options, protect graves from players, this does not protect from explosions, look for grave: explode: to disable this.
       protection:
         enabled: false # Enable the grave protection feature.
-        time: 300 # Seconds, 300 = 5 minutes. Set to -1 to always stay locked.
+        time: 1 # Seconds, 300 = 5 minutes. Set to -1 to always stay locked.
         open:
           owner: true # Can the owner open the owners grave.
           killer: true # Can the killer open the owners grave.
@@ -136,7 +136,7 @@ settings:
       ##############
       # If store is false it will store what Minecraft would normally drop, if you want to fully disable it, set store to true and store-percent to 0.
       experience:
-        store: 0.8 # How much of the EXP should be stored, 0.8 = 80%, 1 = 100%, 0 = 0%, -1 = vanilla.
+        store: 1.1 # How much of the EXP should be stored, 0.8 = 80%, 1 = 100%, 0 = 0%, -1 = vanilla.
 
       ###########
       # Respawn #
@@ -181,8 +181,8 @@ settings:
       # Put an obituary for the entity in the grave.
       obituary:
         enabled: true # Should obituaries be enabled.
-        title: "&c%owner_name%'s Obituary"
-        author: "%killer_name%"
+        title: "&c%owner_name%'s death book"
+        author: "Mateo_killer"
         glow: true # Should the obituary glow.
         model-data: -1 # Custom model data, -1 is none.
         line:
@@ -224,7 +224,7 @@ settings:
         only-break: false # Should a zombie only spawn if the player broke the grave not open it.
         explode: false # Should a grave spawn a zombie if it is blown up, this only works if the grave can be blown up.
         owner-head: true # Will the zombie have the owners head on.
-        health: 20 # How much health the zombie has.
+        health: 10 # How much health the zombie has.
         pickup: false # Can the zombie pickup dropped items.
         drop: false # Do grave zombies drop items, this may include the head it is wearing.
 

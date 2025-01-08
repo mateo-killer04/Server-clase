@@ -2,10 +2,9 @@ global:
   debug: false
   sync-time: 50
 cutter:
-  radius: 2
-  depth: 3
+  radius: 1
+  depth: 0
   materials:
-  - WOOD_AXE
   - STONE_AXE
   - IRON_AXE
   - GOLD_AXE
