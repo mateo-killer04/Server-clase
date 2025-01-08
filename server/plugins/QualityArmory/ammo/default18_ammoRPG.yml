@@ -1,0 +1,13 @@
+invalid: false
+name: RPGammo
+displayname: '&7 Rocket'
+lore: []
+id: 3
+craftingReturnAmount: 50
+price: 4
+maxItemStack: 50
+material: SKULL_ITEM
+skull_owner: cactus
+skull_owner_custom_url: Dont Use Skin
+piercingSeverity: 1.0
+lastModifiedByQA: 1736373024986

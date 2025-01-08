@@ -1,0 +1,60 @@
+name: rpg_18
+displayname: '&6RPG'
+id: 1
+variant: 0
+craftingRequirements:
+- IRON_INGOT,0,32
+- REDSTONE,0,10
+weapontype: RPG
+weaponsounds: warheadlaunch
+enableIronSights: false
+ammotype: rocket
+damage: 100
+maxbullets: 1
+price: 4000
+material: DIAMOND_HOE
+Version_18_Support: true
+CustomProjectiles:
+  projectileType: RPG
+  explosionRadius: 10.0
+  Velocity: 2.0
+ReloadingHandler: SingleBulletReload
+maxBulletDistance: 500
+particles:
+  bullet_particle: SMOKE_LARGE
+  bullet_particleR: 1
+  bullet_particleG: 1
+  bullet_particleB: 1
+  bullet_particleData: 0
+  bullet_particleMaterial: COAL_BLOCK
+invalid: false
+durability: 1000
+maxItemStack: 1
+setZoomLevel: 0
+sway:
+  defaultValue: 0.2
+  defaultMultiplier: 2
+  sneakModifier: true
+  moveModifier: true
+  runModifier: true
+  unscopedModifier: 1
+firerate: 1
+delayForReload: 1.5
+delayForShoot: 0.3
+bullets-per-shot: 1
+isAutomatic: false
+unlimitedAmmo: false
+LightLeveOnShoot: 14
+recoil: 1
+slownessOnEquip: 0
+ChargingHandler: none
+addMuzzleSmoke: true
+drop-glow-color: none
+headshotMultiplier: 3.5
+weaponsounds_volume: 4
+weaponsounds_reloadingSound: reloadbullet
+firing_knockback: 0
+KilledByMessage: '%player% was shot by %killer% using a %name%'
+DestructableMaterials:
+- MATERIAL_NAME_HERE
+lastModifiedByQA: 1736373024972

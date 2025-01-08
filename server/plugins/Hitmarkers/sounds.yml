@@ -1,0 +1,70 @@
+#########################################################################################
+#                                                                                       #
+# Hitmarkers, a free resource by Norska @ https://norska.dev                            #
+#                                                                                       #
+# Wiki: https://norska.dev/docs/welcome/                                                #
+# Support: https://norska.dev/discord/                                                  #
+#                                                                                       #
+# You are editing the sounds.yml file of Hitmarkers.                                    #
+#                                                                                       #
+#########################################################################################
+
+#########################################################################################
+#                                                                                       #
+# WARNING: PLEASE READ BEFORE CONFIGURING!                                              #
+#                                                                                       #
+# The plugin uses ENUM sound names, meaning you cannot use default sound names          #
+# To find the ENUM names, google the following: "<Server Version> ENUM Sounds>".        #
+#                                                                                       #
+# Do not open tickets regarding issues with sounds, they can be easily solved by using  #
+# names which are in ENUM form and are appropriate for YOUR base server version.        #
+#                                                                                       #
+#########################################################################################   
+
+sounds:
+
+   EVENT_HIT_NORMAL:
+      enabled: true
+      sound: 'BLOCK_NOTE_BLOCK_BELL'
+      volume: 1.0
+      pitch: 1.0
+      
+   EVENT_HIT_HEADSHOT:
+      enabled: true
+      sound: 'BLOCK_NOTE_BLOCK_BIT'
+      volume: 2.0
+      pitch: 2.0
+      
+   EVENT_HIT_KILLSHOT:
+      enabled: true
+      sound: 'ENTITY_GHAST_SCREAM'
+      volume: 1.0
+      pitch: 1.0
+      
+   ###############################  
+   
+   COMMAND_TOGGLE_DISABLE:
+      enabled: true
+      sound: 'BLOCK_NOTE_BLOCK_BELL'
+      volume: 1.0
+      pitch: 1.0  
+      
+   COMMAND_TOGGLE_ENABLE:
+      enabled: true
+      sound: 'BLOCK_NOTE_BLOCK_BELL'
+      volume: 1.0
+      pitch: 1.0  
+      
+   ###############################  
+      
+   COMMAND_RELOAD:
+      enabled: true
+      sound: 'BLOCK_NOTE_BLOCK_BELL'
+      volume: 1.0
+      pitch: 1.0  
+      
+   COMMAND_NOPERMISSION:
+      enabled: true
+      sound: 'ENTITY_VILLAGER_NO'
+      volume: 1.0
+      pitch: 1.0      

@@ -1,0 +1,86 @@
+#########################################################################################
+#                                                                                       #
+# Hitmarkers, a free resource by Norska @ https://norska.dev                            #
+#                                                                                       #
+# Wiki: https://norska.dev/docs/welcome/                                                #
+# Support: https://norska.dev/discord/                                                  #
+#                                                                                       #
+# You are editing the config.yml file of Hitmarkers.                                    #
+#                                                                                       #
+#########################################################################################
+
+#########################################################################################
+#                                                                                       #
+# NOTE: PLEASE READ BEFORE CONFIGURING!                                                 #
+#                                                                                       #
+# Please consult the wiki for any questions regarding the setup of this plugin, if you  #
+# still require help, open a ticket on my discord server!                               #
+#                                                                                       #
+#########################################################################################
+
+##################################
+#                                #
+#        GENERAL SETTINGS        #
+#                                #
+##################################
+
+settings:
+
+   # Note: You can add arrow trails for players with permissions "hm.user.trail.<PARTICLE TYPE ENUM>"
+   # Example: "hm.user.trail.WITCH_SPELL"
+   particles:
+      amount: 10
+   
+   # Note: Headshots are not applicable for mobs
+   headshots:
+      enabled: true
+      extraDamage: 0.5
+   
+   # Note: Whether or not hitmarkers show up for mobs too   
+   mobs:
+      enabled: true
+      # Note: Use ENUM names for entities. Google "<Server Version> Entities Enum"
+      # Note: If you want all entities, just add 'ALL'
+      entities:
+      - 'ZOMBIE'
+      - 'SKELETON'
+      - 'SPIDER'
+      - 'ALL'
+      
+   disabledWorlds:
+   - 'world_the_end'
+
+##################################
+#                                #
+#      USER TOGGLE COMMANDS      #
+#                                #
+##################################
+   
+# Note: Commands must be in CAPS and have a "/" in front of them
+toggleCommand:
+   commands:
+   - '/HTOGGLE'
+   - '/HMTOGGLE'
+
+##################################
+#                                #
+#             HOOKS              #
+#                                #
+##################################
+   
+hooks:
+
+   worldguard:
+      enabled: false
+      whitelist:
+      - 'pvp_region_name'
+      - 'another_region'
+
+##################################
+#                                #
+#    UPDATE NOTIFIER SETTINGS    #
+#                                #
+##################################
+   
+updates:
+   notifications: true
