@@ -32,13 +32,13 @@ Items:
 enableReloadingOnDrop: false
 enableReloadingWhenSwapToOffhand: true
 enableReloadOnlyWhenSwapToOffhand: false
-allowGunHitEntities: false
+allowGunHitEntities: true
 showOutOfAmmoOnTitle: true
 showReloadingTitle: true
 showAmmoInXPBar: true
-perWeaponPermission: false
-enableExplosionDamage: false
-enableExplosionDamageDrop: false
+perWeaponPermission: true
+enableExplosionDamage: true
+enableExplosionDamageDrop: true
 enablePrimaryWeaponLimiter: false
 weaponlimiter_primaries: 10
 weaponlimiter_secondaries: 10
@@ -49,7 +49,7 @@ Swap-Reload-and-Shooting-Controls: false
 Order-Shop-By-Price: false
 enable_lore_gun-info_messages: true
 enable_lore_control-help_messages: true
-Enable_Headshot_Instantkill: true
+Enable_Headshot_Instantkill: false
 Enable_Headshot_Notification_Sound: true
 Headshot_Notification_Sound: entity.experience_orb.pickup
 Enable_Headshot_Sounds: true
@@ -62,7 +62,7 @@ ManuallyOverrideTo_1_13_systems: false
 ManuallyOverrideTo_1_14_systems: false
 unknownTranslationKeyFixer: false
 Enable_Creation_Of_Default_Files: true
-EnableGlowEffects: false
+EnableGlowEffects: true
 Break-Block-Texture-If-Shot: true
 enableRecoil: true
 experimental:
@@ -87,7 +87,7 @@ deathmessages:
 impenetrableEntityTypes:
 - ARROW
 DefaultResourcepackOverride: false
-IronSightsOnRightClick: false
+IronSightsOnRightClick: true
 SwapSneakToSingleFire: false
 DestructableMaterials:
 - MATERIAL_NAME_HERE
