@@ -16,8 +16,8 @@ material: DIAMOND_HOE
 Version_18_Support: true
 CustomProjectiles:
   projectileType: RPG
-  explosionRadius: 10.0
-  Velocity: 2.0
+  explosionRadius: 25.0
+  Velocity: 1.0
 ReloadingHandler: SingleBulletReload
 maxBulletDistance: 500
 particles:
