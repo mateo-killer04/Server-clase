@@ -1,7 +1,7 @@
 ENABLE-DEBUG: false
 language: en
 FriendlyFireEnabled: true
-KickPlayerIfDeniedResourcepack: true
+KickPlayerIfDeniedResourcepack: false
 useDefaultResourcepack: true
 EnableWeaponDurability: false
 BulletDetection:
