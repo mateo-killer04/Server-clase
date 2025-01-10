@@ -32,7 +32,7 @@ delayForShoot: 0.3
 bullets-per-shot: 1
 isAutomatic: false
 maxBulletDistance: 200
-unlimitedAmmo: false
+unlimitedAmmo: true
 LightLeveOnShoot: 14
 recoil: 1
 slownessOnEquip: 0

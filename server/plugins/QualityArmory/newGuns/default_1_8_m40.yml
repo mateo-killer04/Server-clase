@@ -34,7 +34,7 @@ firerate: 1
 delayForReload: 1.5
 bullets-per-shot: 1
 isAutomatic: false
-unlimitedAmmo: false
+unlimitedAmmo: true
 LightLeveOnShoot: 14
 slownessOnEquip: 0
 particles:

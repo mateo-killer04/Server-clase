@@ -32,7 +32,7 @@ sway:
   unscopedModifier: 1
 delayForReload: 1.5
 delayForShoot: 0.3
-unlimitedAmmo: false
+unlimitedAmmo: true
 LightLeveOnShoot: 14
 slownessOnEquip: 0
 particles:

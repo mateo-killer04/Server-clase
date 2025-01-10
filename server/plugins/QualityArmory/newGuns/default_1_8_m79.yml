@@ -16,8 +16,8 @@ price: 5000
 delayForShoot: 1.0
 CustomProjectiles:
   projectileType: ExplodingRound
-  Velocity: 2.0
-  explosionRadius: 6.0
+  Velocity: 1.0
+  explosionRadius: 15.0
 ReloadingHandler: SingleBulletReload
 maxBulletDistance: 500
 particles:
@@ -45,7 +45,7 @@ firerate: 1
 delayForReload: 1.5
 bullets-per-shot: 1
 isAutomatic: false
-unlimitedAmmo: false
+unlimitedAmmo: true
 LightLeveOnShoot: 14
 slownessOnEquip: 0
 ChargingHandler: none
