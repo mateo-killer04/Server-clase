@@ -3,7 +3,7 @@ displayname: '&6PKP'
 id: 1
 variant: 0
 craftingRequirements:
-- IRON_INGOT,0,15
+- DIAMOND,0,15
 - REDSTONE,0,5
 weapontype: RIFLE
 weaponsounds: bulletbig

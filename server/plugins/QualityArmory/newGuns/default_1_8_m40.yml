@@ -3,7 +3,7 @@ displayname: '&6M40'
 id: 0
 variant: 0
 craftingRequirements:
-- IRON_INGOT,0,12
+- DIAMOND,0,12
 - WOOD,0,2
 - REDSTONE,0,5
 weapontype: SNIPER
