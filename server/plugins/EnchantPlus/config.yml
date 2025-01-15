@@ -46,7 +46,7 @@ Natural_Enchanting:
    
   # This is the default amount of the level limit for all enchantments
   # Uses the natural level limit of an enchantment if set to 0
-  Amount: 0
+  Amount: 4
   
   # You can override the level limit amount for particular enchantments with this list
   # Format: <name/id>-<amount>
@@ -63,7 +63,7 @@ Natural_Enchanting:
   
   # Determines whether the permission for this feature is enabled
   # Permission: "EnchantPlus.mechanic.multiple"
-  Permission_Enabled: true
+  Permission_Enabled: false
   
   # Determines whether the conflicting check for enchantments is enabled (conflicting enchantment example: "Sharpness" and "Smite" or "Bane of Arthropods)
   # Bypass permission: "EnchantPlus.bypass.conflicting"

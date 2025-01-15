@@ -2,11 +2,11 @@
 # 1 heart = 2 health points.
 baseSettings:
     # Amount of maximum health points that will be given to the new player that did not play before.
-    defaultHealth: 40.0
+    defaultHealth: 20.0
     # Minimum amount of health points a player can have.
-    minimumHealth: 40.0
+    minimumHealth: 20.0
     # Maximum amount of health points a player can have.
-    maximumHealth: 60.0
+    maximumHealth: 20.0
     # Health points will be changed only if the player was killed by the other player.
     killByPlayerOnly: true
     # If players with same ip address should be prevented from gaining health points.
@@ -115,9 +115,9 @@ baseSettings:
         # If any heart item should be enabled on the server.
         enabled: true
         # Amount of health points that should be given to a player on item consume.
-        healthAmount: 5.0
+        healthAmount: 2.0
         # Upper maximum health limit for healing with the heart item.
-        maximumHealthLimit: 60.0
+        maximumHealthLimit: 40.0
         # Type of the item that the heart item should be.
         type: APPLE
         # Recipe for the heart item creation. Each number is an ordered slot in the workbench (1-9).
@@ -175,9 +175,9 @@ baseSettings:
     # If you want to disable the life steal system for a killer or a victim just set their health change to 0.
     healthChange:
         # How much health points should be taken from a victim.
-        victim: 5.0
+        victim: 2.0
         # How much health points should be given to a killer.
-        killer: 5.0
+        killer: 2.0
     # Specify in what worlds should each system be disabled or where it will not affect anything.
     disabledWorlds:
         # Specify in what worlds should gaining/losing health be disabled.

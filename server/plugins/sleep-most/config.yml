@@ -57,7 +57,7 @@ sleep:
   world2:
     enabled: false
     calculation-method: percentage
-    percentage-required: 0.5
+    percentage-required: 0.1
     players-required: 1
     mob-no-target: true
     use-exempt: false

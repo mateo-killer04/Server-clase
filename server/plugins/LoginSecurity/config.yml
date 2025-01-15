@@ -41,7 +41,7 @@ updater:
 # Session timeout in seconds, set to -1 to disable.
 session-timeout: 0
 # Login timeout in seconds, set to -1 to disable.
-login-timeout: 20
+login-timeout: 50
 # Login/register message delay in seconds.
 login-message-delay: 10
 # Language for messages, check wiki for more info.
