@@ -123,39 +123,39 @@ baseSettings:
         # Recipe for the heart item creation. Each number is an ordered slot in the workbench (1-9).
         crafting:
             '1':
-                type: DIAMOND_BLOCK
+                type: DIAMOND
                 amount: 1
             '2':
-                type: DIAMOND_BLOCK
+                type: DIAMOND
                 amount: 1
             '3':
-                type: DIAMOND_BLOCK
+                type: DIAMOND
                 amount: 1
             '4':
-                type: DIAMOND_BLOCK
+                type: DIAMOND
                 amount: 1
             '5':
-                type: DIAMOND_BLOCK
+                type: DIAMOND
                 amount: 1
             '6':
-                type: DIAMOND_BLOCK
+                type: DIAMOND
                 amount: 1
             '7':
-                type: DIAMOND_BLOCK
+                type: DIAMOND
                 amount: 1
             '8':
-                type: DIAMOND_BLOCK
+                type: DIAMOND
                 amount: 1
             '9':
-                type: DIAMOND_BLOCK
+                type: DIAMOND
                 amount: 1
         # Meta for the heart item.
         meta:
             # Display name for the item.
-            displayName: '&aThe Heart of a bad dude'
+            displayName: '&aThe Heart of God'
             # Lore for the item.
             lore: 
-            - '&aUse this item to give yourself health points. Or to flex on other peasants'
+            - '&aUse this item to give yourself health points. Or to flex on peasants'
             # Should heart item glow (Enchantment effect)?
             glowing: true
         # Specify when the heart item should be dropped.

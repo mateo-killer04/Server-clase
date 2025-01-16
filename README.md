@@ -19,3 +19,4 @@ second tab: `cd bungee && sudo java -jar bungee.jar`
 go to the port area -> ports `25565` and `8081`
 <br>
 !
+
